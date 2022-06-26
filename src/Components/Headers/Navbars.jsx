@@ -1,7 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
-import Serch from "../Serch/Serch";
 import LoginButton from "../LoginButton/LoginButton";
 import Profile from "../Profile/Profile";
+import Buscador from "../Buscador/Buscador";
 
 const Navbars = () => {
   const { isAuthenticated } = useAuth0();
@@ -42,7 +42,7 @@ const Navbars = () => {
             </ul>
           </div>
         </div>
-        <Serch />
+        <Buscador />
         {isAuthenticated ? <Profile /> : <LoginButton />}
       </nav>
     </>

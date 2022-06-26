@@ -1,0 +1,26 @@
+.buscadorCaja{
+    position: relative;
+}
+.buscadorBoton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    background: none;
+}
+.buscadorInput{
+    height: 35px;
+    border-radius: 10px;
+    padding-right: 30px;
+    border: none;
+    outline: none;
+    line-height: 60px;
+    transition: .3s;
+    width: 0;
+}
+
+.buscadorCaja:hover > .buscadorInput{
+    width: 190px;
+}
+

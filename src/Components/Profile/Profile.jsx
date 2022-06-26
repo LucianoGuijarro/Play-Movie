@@ -6,7 +6,7 @@ const Profile = () => {
   const { user, isAuthenticated } = useAuth0();
   return (
     isAuthenticated && (
-      <div class="dropdown">
+      <div class='dropdown ms-3'>
         <button
           class="dropdown-toggle"
           type="button"
