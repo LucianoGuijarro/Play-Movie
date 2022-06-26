@@ -1,0 +1,13 @@
+
+.cards{
+    width: 18rem;
+    background-color: black;
+    margin-right: 30px;
+}
+.img{
+    border-radius: 20px;
+}
+
+.img:hover{
+    opacity: 0.5;
+}

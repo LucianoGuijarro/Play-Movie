@@ -1,0 +1,14 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.columnas{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+.img{
+    border-radius: 15px;
+}
